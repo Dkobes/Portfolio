@@ -222,29 +222,49 @@
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
   .run-buddy {
-    
+    background-image: url('../images/run-buddy.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 250px
   }
   
   .led-wall {
-    
+    background-image: url('../images/led-wall.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 250px
   }
   
   .react-calc {
-    
+    background-image: url('../images/react-calc.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height:150px
   }
   
   .pastel-puzzles {
-    
+    background-image: url('../images/pastel-puzzles.jpg');
+    background-size: cover;
+    background-position: center;
+    width:50%;
+    height:150px
   }
   
   .surf-report {
-    
+    background-image: url('../images/surf-report.jpg');
+    background-size: cover;
+    background-position: center;
+    width:50%;
+    height:150px
   }
   
   /* media queries */
   
   /* media queries for a max-width of 980px */
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 768px) {
     header {
       padding: 0 0 10px 0;
       justify-content: center;
